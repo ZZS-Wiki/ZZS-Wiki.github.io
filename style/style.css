@@ -54,6 +54,16 @@ body{
     top: 69px;
     left: 158px;
 }
+#aktualnosci{
+    border: 4px outset rgb(115, 172, 30);
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+    text-align: center;
+    position: fixed;
+    width: 573px;
+
+    top: 69px;
+    left: 700px;
+}
 
 .link{
     color: black;
