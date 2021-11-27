@@ -25,21 +25,36 @@ body{
 }
 #top{
     background-color: #663399;
-    height: 70px;
     margin-left: -8px;
     margin-right: -8px;
     margin-top: -8px;
+    position: fixed;
+    width: 100%;
+    height: 70px;
 }
 #obiekty{
     border: 4px outset rgb(107, 107, 255);
     background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
     position: fixed;
-    top: 69px;
     width: 150px;
     text-align: center;
     margin-left: -8px;
     font-size: 20px;
+    
+    top: 69px;
 }
+#logi{
+    border: 4px outset sandybrown;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    position: fixed;
+    width: 150px;
+
+    top: 69px;
+    left: 158px;
+}
+
 .link{
     color: black;
 }
