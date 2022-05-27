@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.top {
+	background-image: linear-gradient( brown 80%, white);
+	text-align: center;
+	padding-bottom: 13px;
+	margin-bottom: 13px;
+}
+
+.top img {
+	width: 150px;
+	height: auto;
+}
+
+blockquote {
+	outline-style: dashed;
+	outline-color: rgba(1, 1, 1, 0.5);
+	width: min-content;
+	padding: 1px 13px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+blockquote a {
+	font-family: 'Courier New', Courier, monospace;
+	color: black;
+}
